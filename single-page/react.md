@@ -9,11 +9,13 @@ description: >-
 
 ### Let's Get your React App running with SAWO 🙌 
 
+### Walk-through of SAWO's integration with React.
+
 {% embed url="https://drive.google.com/file/d/1w2ZWJnSzGmZttq\_iOlh6HRn96iQhDak5/view" %}
 
 #### 
 
-**Requirements**
+### **Requirements**
 
 Node, Node Package Manager\(NPM\)
 
@@ -43,6 +45,8 @@ If are ''localhost" as hostname is not working for you, try "127.0.0.1" 🤓
 {% endhint %}
 
 #### We get it! you got Stuck! 😞 Feel free to contact us on \#ask-for-help on our [Discord](https://discord.com/invite/TpnCfMUE5P)
+
+### You can also check [SAWO's React Sample Code](https://github.com/sawolabs/React-Sample-App) 
 
 {% page-ref page="../faqs.md" %}
 
