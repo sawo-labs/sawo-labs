@@ -1,9 +1,10 @@
 # Table of contents
 
-* [Integrations](README.md)
-* [Getting Started](getting-started...md)
+* [Integrations✏️](README.md)
 * [FAQS](faqs.md)
 * [Quickguides](quickguides.md)
+* [Getting Started👋](getting-started...md)
+* [Discord](https://longhaired-work-e70.notion.site/cd68c7be20594b28b42aa37426224e1b?v=38bcde4e841b4946a9dc646f60f7a920)
 
 ## Single Page
 
@@ -17,8 +18,13 @@
 
 * [Flask](web-apps/flask.md)
 * [Django](web-apps/django.md)
+* [Laravel](web-apps/laravel.md)
+* [Node Js](web-apps/node-js.md)
 
----
+## Mobile-Development <a id="mobile"></a>
 
-* [Discord](https://longhaired-work-e70.notion.site/cd68c7be20594b28b42aa37426224e1b?v=38bcde4e841b4946a9dc646f60f7a920)
+* [Flutter](mobile/flutter.md)
+* [Android](mobile/android.md)
+* [IOS](mobile/ios.md)
+* [Untitled](mobile/untitled.md)
 

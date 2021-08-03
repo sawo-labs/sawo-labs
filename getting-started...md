@@ -1,4 +1,4 @@
-# Getting Started
+# Getting Started👋
 
-Describe SAWO
+Describe SAWO here with image
 
