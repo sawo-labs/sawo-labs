@@ -1,11 +1,11 @@
 ---
 description: >-
   React is a free and open-source front-end JavaScript library for building user
-  interfaces or UI components.Several useful mobile applications can be built
+  interfaces or UI components. Several useful mobile applications can be built
   through this library.
 ---
 
-# React⚛️
+# React⚛️🤘
 
 We understand you are excited to start working with SAWO API and integrate it into your application. This article here will help you in the same. Read ahead and enjoy the seamless, fast, and secure way to get SAWO API authentication services initiated on your projects.  
 
@@ -20,17 +20,19 @@ Node, Node Package Manager\(NPM\)
 
 **Steps**
 
-1. The first step to getting started with SAWO API integration into your React website is to **install the sawo package** as given below:
+1. The first step to getting started with SAWO API integration into your React web page is to **install the sawo** package as given below:
 
 ```text
 npm i sawo
 ```
 
-1. After installation is done, you have to **import the Sawo class** from the installed sawo package:
+2. After installation is done, you have to import the Sawo class from the installed sawo package to the top of the life:
 
 ```text
 import Sawo from "sawo"
 ```
 
-\*\*\*\*
+3. To get your API key that you would need to use in the application, visit [dev console](https://dev.sawolabs.com/) of SAWO and create a project.
+
+4.  
 

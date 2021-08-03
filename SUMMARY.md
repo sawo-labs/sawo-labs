@@ -8,7 +8,7 @@
 
 ## Single Page
 
-* [React⚛️](single-page/react.md)
+* [React⚛️🤘](single-page/react.md)
 * [Angular](single-page/angular.md)
 * [Vue](single-page/vue.md)
 * [HTML](single-page/html.md)
