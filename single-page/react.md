@@ -40,7 +40,10 @@ npm i sawo
 import Sawo from "sawo"
 ```
 
-3. To get your own API key to use SAWO to create a project, visit [dashboard](https://dev.sawolabs.com/) of SAWO.
+3. To use SAWO Login you would need an API key which can be obtained by visiting [dashboard](https://dev.sawolabs.com/) of SAWO and creating a project.
 
-4.  
+4.  Once you create your project, you would need to:  
+      i.  set your **project name.**  
+      ii. set your **project host** :  
+
 
