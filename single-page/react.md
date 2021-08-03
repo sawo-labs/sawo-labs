@@ -32,7 +32,7 @@ npm i sawo
 import Sawo from "sawo"
 ```
 
-3. To get your API key that you would need to use in the application, visit [dev console](https://dev.sawolabs.com/) of SAWO and create a project.
+3. To get your own API key to use SAWO to create a project, visit [dashboard](https://dev.sawolabs.com/) of SAWO.
 
 4.  
 
