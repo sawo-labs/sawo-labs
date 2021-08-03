@@ -9,20 +9,9 @@ description: >-
 
 ### Let's Get your React App running with SAWO 🙌 
 
-#### We get it!, you got Stuck! 😞 Feel free to contact us on \#ask-for-help on our [Discord](https://discord.com/invite/TpnCfMUE5P)
-
-{% page-ref page="../faqs.md" %}
-
-{% hint style="info" %}
-If are ''localhost" as hostname is not working for you, try "127.0.0.1" 🤓 
-{% endhint %}
-
-We understand you are excited to start working with SAWO API and integrate it into your application. This article here will help you in the same. Read ahead and enjoy the seamless, fast, and secure way to get SAWO API authentication services initiated on your projects.  
-
-
 {% embed url="https://drive.google.com/file/d/1w2ZWJnSzGmZttq\_iOlh6HRn96iQhDak5/view" %}
 
-
+#### 
 
 **Requirements**
 
@@ -48,4 +37,12 @@ import Sawo from "sawo"
       i.  set your **project name.**  
       ii. set your **project host** :  
 
+
+{% hint style="info" %}
+If are ''localhost" as hostname is not working for you, try "127.0.0.1" 🤓 
+{% endhint %}
+
+#### We get it! you got Stuck! 😞 Feel free to contact us on \#ask-for-help on our [Discord](https://discord.com/invite/TpnCfMUE5P)
+
+{% page-ref page="../faqs.md" %}
 
