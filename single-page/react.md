@@ -13,7 +13,9 @@ description: >-
 
 {% page-ref page="../faqs.md" %}
 
-
+{% hint style="info" %}
+If are ''localhost" as hostname is not working for you, try "127.0.0.1" 🤓 
+{% endhint %}
 
 We understand you are excited to start working with SAWO API and integrate it into your application. This article here will help you in the same. Read ahead and enjoy the seamless, fast, and secure way to get SAWO API authentication services initiated on your projects.  
 
