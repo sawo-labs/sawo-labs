@@ -7,6 +7,14 @@ description: >-
 
 # React⚛️🤘
 
+### Let's Get your React App running with SAWO 🙌 
+
+#### We get it!, you got Stuck! 😞 Feel free to contact us on \#ask-for-help on our [Discord](https://discord.com/invite/TpnCfMUE5P)
+
+{% page-ref page="../faqs.md" %}
+
+
+
 We understand you are excited to start working with SAWO API and integrate it into your application. This article here will help you in the same. Read ahead and enjoy the seamless, fast, and secure way to get SAWO API authentication services initiated on your projects.  
 
 
@@ -18,7 +26,7 @@ We understand you are excited to start working with SAWO API and integrate it in
 
 Node, Node Package Manager\(NPM\)
 
-**Steps**
+## **Steps**
 
 1. The first step to getting started with SAWO API integration into your React web page is to **install the sawo** package as given below:
 
