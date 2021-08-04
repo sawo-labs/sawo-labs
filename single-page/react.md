@@ -5,11 +5,9 @@ description: >-
   through this library.
 ---
 
-# React⚛️🤘
+# React⚛️
 
 ### Let's Get your React App running with SAWO 🙌 
-
-### 
 
 {% embed url="https://drive.google.com/file/d/1w2ZWJnSzGmZttq\_iOlh6HRn96iQhDak5/view" caption="Walk-through of SAWO\'s integration with React." %}
 
@@ -19,7 +17,7 @@ description: >-
 
 Node, Node Package Manager\(NPM\)
 
-## **Steps**
+### **Steps**
 
 1. The first step to getting started with SAWO API integration into your React web page is to **install the sawo** package as given below:
 
@@ -27,7 +25,7 @@ Node, Node Package Manager\(NPM\)
 npm i sawo
 ```
 
-2. After installation is done, you have to import the Sawo class from the installed sawo package to the top of the life:
+2. After installation is done, you have to **import the Sawo class** from the installed sawo package to the top of the file:
 
 ```text
 import Sawo from "sawo"
@@ -52,8 +50,6 @@ If you are adding your domain do not add 'https://' or ''http://'.
 5. Copy the API key from the project and keep it safe and secure.
 
 6. Initialise SAWO and render the form according to following steps:
-
-1. As part of this step, a container has to be created for the SAWO component, with `id` as `sawo-container.` `<div id="sawo-container" style="height: 300px; width: 300px;"></div>`
 
 ```text
 import React, { useEffect } from 'react'
@@ -88,9 +84,11 @@ export default LoginPage
 ```
 
 7. Once the SAWO SDK is successfully setup, a login form will be rendered in the provided container as displayed in the picture below:  
-**add image.**
+                                                          **add image.**
 
-#### We get it! you got Stuck! 😞 Feel free to contact us on \#ask-for-help on our [Discord](https://discord.com/invite/TpnCfMUE5P)
+#### Yayy, you have successful implemented SAWO to your application 🤘 \(Experimental\)
+
+#### We get it! You got Stuck! 😞 Feel free to contact us on \#ask-for-help on our [Discord](https://discord.com/invite/TpnCfMUE5P)
 
 {% page-ref page="../faqs.md" %}
 
