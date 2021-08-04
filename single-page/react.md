@@ -33,50 +33,58 @@ import Sawo from "sawo"
 
 3. To use SAWO Login you would need an API key which can be obtained by visiting [dashboard](https://dev.sawolabs.com/) of SAWO and by creating a project.
 
-4.  Once you create your project, you would need to set your **project name and host name** and ****this is one of the most important step.  
-    4.1. For development in local machine, host name should be set to 'localhost'.
+4.  Once you create your project, you would need to set your **project name and hostname** and ****this is one of the most important step.  
+    4.1. For development in a local machine, the hostname should be set to 'localhost'.
 
 {% hint style="info" %}
-If using ''localhost" as host name is not working for you, try "127.0.0.1" 🤓 
+If using ''localhost" as hostname is not working for you, try "127.0.0.1" 🤓 
 {% endhint %}
 
-    ****4.2. For the production, host name should be set to your domain. 
+    ****4.2. For the production, the hostname should be set to your domain. 
 
 {% hint style="info" %}
-If you are adding your domain do not add 'https://' or ''http://'.   
-**Example**
+If you are adding your domain do not add 'https://', ''http://', 'www' or even trailing backslash.  
+**Example:**  
+`https://dev.sawolabs.com/` should be kept as `dev.sawolabs.com`
 {% endhint %}
 
 5. Copy the API key from the project and keep it safe and secure.
 
-6. Initialise SAWO and render the form according to following steps:
+6. Initialise SAWO and render the form according to the following steps:
 
-1. As part of this step, a container has to be created for the sawo component inside the body tag. This has to be done on your project’s source file.
-2. ```text
-   <div id="sawo-container" style="height: 300px; width: 300px;"></div>
-   ```
-3. Some configurations have to be checked as given below. The code given below should help in the same.
-4. ```text
-    var config = {
-           // should be same as the id of the container created on 3rd step
-           containerID: "<container-ID>",
-           // can be one of 'email' or 'phone_number_sms'
-           identifierType: "phone_number_sms",
-           // Add the API key copied from 2nd step
-           apiKey: "",
-           // Add a callback here to handle the payload sent by sdk
-           onSuccess: (payload) => {},
-       };
+* As part of this step, a container has to be created for the sawo component inside the body tag. This has to be done on your project’s source file.
 
-   ```
-5. Then a Sawo Instance has to be created using the code given below:
-6. ```text
-   let sawo = new Sawo(config)
-   ```
-7. The showForm method should be called thereafter. The showForm method is responsible for rendering the form in the given container.
-8. ```text
-   sawo.showForm()
-   ```
+```text
+<div id="sawo-container" style="height: 300px; width: 300px;"></div>
+```
+
+* Some configurations have to be checked as given below. The code given below should help in the same.
+
+```text
+ var config = {
+        // should be same as the id of the container created on 3rd step
+        containerID: "<container-ID>",
+        // can be one of 'email' or 'phone_number_sms'
+        identifierType: "phone_number_sms",
+        // Add the API key copied from 2nd step
+        apiKey: "",
+        // Add a callback here to handle the payload sent by sdk
+        onSuccess: (payload) => {},
+    };
+
+```
+
+* Then a Sawo Instance has to be created using the code given below:
+
+```text
+let sawo = new Sawo(config)
+```
+
+* The showForm method should be called thereafter. The showForm method is responsible for rendering the form in the given container.
+
+```text
+sawo.showForm()
+```
 
 7.  Below code-block can be used as reference after you have completed setting up your project:
 
