@@ -28,12 +28,12 @@
 
 ## HYBRID
 
-## DESKTOP APPS
-
 ---
 
 * [Flutter](flutter/README.md)
   * [Electron](flutter/electron.md)
+
+## DESKTOP APPS
 
 ## Additonal Content
 
