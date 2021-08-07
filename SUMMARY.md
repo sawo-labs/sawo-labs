@@ -12,7 +12,6 @@
 * [Angular](single-page/angular.md)
 * [Vue](single-page/vue.md)
 * [HTML](single-page/html.md)
-* [JavaScript](single-page/javascript.md)
 
 ## Web Apps
 
