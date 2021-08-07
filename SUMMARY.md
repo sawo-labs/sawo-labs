@@ -30,10 +30,14 @@
 
 ---
 
-* [Flutter](flutter/README.md)
-  * [Electron](flutter/electron.md)
+* [Flutter](flutter.md)
+* [React Native](react-native.md)
 
 ## DESKTOP APPS
+
+---
+
+* [Electron](electron.md)
 
 ## Additonal Content
 
