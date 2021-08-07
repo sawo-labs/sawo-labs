@@ -23,9 +23,14 @@
 
 ## Mobile-Development <a id="mobile"></a>
 
-* [Flutter](mobile/flutter.md)
 * [Android](mobile/android.md)
 * [IOS](mobile/ios.md)
+
+## HYBRID
+
+---
+
+* [Flutter](flutter.md)
 
 ## Additonal Content
 
