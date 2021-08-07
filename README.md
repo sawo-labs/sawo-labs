@@ -14,7 +14,7 @@ There are multiple ways to integrate login verification within just a few minute
 
  ![](.gitbook/assets/react-1-.png) ![](.gitbook/assets/angular.png) ![](.gitbook/assets/vue.png)                                         
 
- ![](.gitbook/assets/web_sdk.png) ![](.gitbook/assets/jsweb-1-.png) 
+ ![](.gitbook/assets/web_sdk.png) 
 
 ## Web Apps
 
