@@ -26,16 +26,16 @@ npm i sawo
 import Sawo from "sawo"
 ```
 
-3. To use SAWO Login you would need an API key which can be obtained by creating a project in the [sawo dashboard](https://dev.sawolabs.com/).
+3. To use SAWO Login you would need an **API key** which can be obtained by creating a project in the [sawo dashboard](https://dev.sawolabs.com/).
 
 4. Once you create your project, you would need to set your **project name and hostname.**  
-    4.1. For development in a local machine, the hostname should be set to 'localhost'.
+    4.1. For **development** in a local machine, the hostname should be set to **'localhost'.**
 
 {% hint style="info" %}
 If using ''localhost" as hostname is not working for you, try "127.0.0.1" 🤓
 {% endhint %}
 
-    4.2. For the production, the hostname should be set to your domain. 
+    4.2. For the **production**, the hostname should be set to your **domain**. 
 
 {% hint style="info" %}
 If you are adding your domain do not add 'https://', ''http://', 'www' or even trailing backslash.  
@@ -43,17 +43,17 @@ If you are adding your domain do not add 'https://', ''http://', 'www' or even t
 `https://dev.sawolabs.com/` should be kept as `dev.sawolabs.com`
 {% endhint %}
 
-5 Copy the API key from the project and keep it safe and secure.
+5 Copy the **API key** from the project and keep it safe and secure.
 
 6. Initialise SAWO and render the form according to the following steps:
 
-* As part of this step, a container has to be created for the SAWO component. This has to be done on your project’s source file.
+* As part of this step, a **container** has to be created for the **SAWO component.** This has to be done on your project’s **source** file.
 
 ```text
 <div id="sawo-container" style="height: 300px; width: 300px;"></div>
 ```
 
-* Some configurations have to be checked as given below. The code given below should help in the same.
+* Some **configurations** have to be checked as given below. The code given below should help in the same.
 
 ```text
  var config = {
@@ -68,7 +68,7 @@ If you are adding your domain do not add 'https://', ''http://', 'www' or even t
     };
 ```
 
-* Then a SAWO instance has to be created using the code given below:
+* Then a **SAWO instance** has to be **created** using the code given below:
 
 ```text
 let sawo = new Sawo(config)
@@ -80,7 +80,7 @@ let sawo = new Sawo(config)
 sawo.showForm()
 ```
 
-7. Below code-block can be used as a reference after you have completed setting up your project:
+7. Below code-block can be used as a reference **after** you have completed setting up your project:
 
 ```text
 <template>
@@ -133,7 +133,9 @@ export default {
 </script>
 ```
 
-8. Once the SAWO SDK is successfully set up, a login form will be rendered in the provided container as displayed in the picture below:
+8. Once the SAWO SDK is successfully set up, a **login form** will be rendered in the provided container as displayed in the picture below:
+
+![Final Render of SAWO Login](../.gitbook/assets/sawo-final-render%20%281%29.png)
 
 ### **Congratulations !! The SAWO API is now ready to be used in your** Vue **application** 🤘**.**
 

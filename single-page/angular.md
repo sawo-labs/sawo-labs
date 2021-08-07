@@ -127,7 +127,9 @@ export class AppComponent {
 }
 ```
 
-8. Once the SAWO SDK is successfully set up, a login form will be rendered in the provided container as displayed in the picture below:
+8. Once the SAWO SDK is successfully set up, a **login form** will be rendered in the provided container as displayed in the picture below:
+
+![Final Render of SAWO Login](../.gitbook/assets/sawo-final-render.png)
 
 ### **Congratulations !! The SAWO API is now ready to be used in your Angular application** 🤘**.**
 
