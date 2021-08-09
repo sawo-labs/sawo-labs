@@ -5,7 +5,7 @@ description: >-
   applications can be built through this library.
 ---
 
-# React⚛️
+# React
 
 ### Let's Get your React App running with SAWO 🙌 
 
