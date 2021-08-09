@@ -49,6 +49,10 @@ If you are adding your domain do not add 'https://', ''http://', 'www' or even t
 
 5. Copy the **API key** from the project and keep it safe and secure.
 
+{% hint style="info" %}
+The best practice to store your API key is to store values in .env so that they are not exposed.
+{% endhint %}
+
 6. Getting Started with the Setup in Flask:
 
 * First, you have to **create a template** for SAWO password-less and OTP-less Authentication for your Flask website. Use the code given below for the same:

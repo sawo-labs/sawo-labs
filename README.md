@@ -1,6 +1,6 @@
 ---
 description: >-
-  Get started quickly using SAWO's SDK to integrate password less login
+  Get started quickly using SAWO's SDK to integrate password-less login
   verification into your app.
 ---
 

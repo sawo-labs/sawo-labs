@@ -15,7 +15,32 @@ description: >-
 
 ### Steps**:**
 
-**1. Installation**
+**1 SAWO Configuration**
+
+1.1. To use SAWO Login you would need an **API key** which can be obtained by creating a project in the [sawo dashboard](https://dev.sawolabs.com/). 
+
+1.2.  Once you create your project, you would need to set your **project name and hostname.**  
+    1.2.1. For **development** in a local machine, the hostname should be set to **'localhost'.**
+
+{% hint style="info" %}
+If using ''localhost" as hostname is not working for you, try "127.0.0.1" 🤓 
+{% endhint %}
+
+    ****1.2.2. For **production**, the hostname should be set to your **domain.** 
+
+{% hint style="info" %}
+If you are adding your domain do not add 'https://', ''http://', 'www' or even trailing backslash.  
+**Example:**  
+`https://dev.sawolabs.com/` should be kept as `dev.sawolabs.com`
+{% endhint %}
+
+1.3. Copy the **API key** from the project and keep it safe and secure.
+
+{% hint style="info" %}
+The best practice to store your API key is to store values in .env so that they are not exposed.
+{% endhint %}
+
+**2. Installation**
 
 To get started with Sawo, use the **Composer package manager** to add the package to your project's dependencies:
 
@@ -23,9 +48,9 @@ To get started with Sawo, use the **Composer package manager** to add the packag
 $ composer require sawolabs/sawo-laravel
 ```
 
-**2. Configuration**
+**3. Configuration**
 
-Before using Sawo, you will need to **add credentials** for your application. These credentials should be placed in your application's `config/sawo.php` **configuration file.**
+3.1. Before using Sawo, you will need to **add credentials** for your application. These credentials should be placed in your application's `config/sawo.php` **configuration file.**
 
 ```text
 <?php
@@ -50,7 +75,7 @@ return [
 ];
 ```
 
-then add the following in the **.env file**
+3.2 Add the following in the **.env file**
 
 ```text
 SAWO_API_KEY=<YOUR_SAWO_API_KEY_HERE>
@@ -59,7 +84,7 @@ SAWO_IDENTIFIER_TYPE=phone_number_sms
 SAWO_REDIRECT=https://yourdomain.com/sawo/callback
 ```
 
-**3. Add Sawo login form to blade template**
+**4. Add Sawo login form to blade template**
 
 Include the following code in your **login blade template** to show Sawo Auth dialog**.**
 
@@ -67,7 +92,7 @@ Include the following code in your **login blade template** to show Sawo Auth di
 @include('sawo::auth')
 ```
 
-**4. Verifying User Token**
+**5. Verifying User Token**
 
 ```text
 use SawoLabs\Laravel\Sawo;

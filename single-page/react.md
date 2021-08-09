@@ -23,6 +23,8 @@ Node \[Version 12.x+ \] , Node Package Manager \(NPM\) \[Version 6.x+\]
 npm i sawo
 ```
 
+
+
 2. After installation is done, you have to **import the Sawo class** from the installed sawo package to the top of the file:
 
 ```text
@@ -38,7 +40,7 @@ import Sawo from "sawo"
 If using ''localhost" as hostname is not working for you, try "127.0.0.1" 🤓 
 {% endhint %}
 
-    ****4.2. For the **production**, the hostname should be set to your **domain.** 
+    ****4.2. For **production**, the hostname should be set to your **domain.** 
 
 {% hint style="info" %}
 If you are adding your domain do not add 'https://', ''http://', 'www' or even trailing backslash.  
@@ -47,6 +49,10 @@ If you are adding your domain do not add 'https://', ''http://', 'www' or even t
 {% endhint %}
 
 5. Copy the **API key** from the project and keep it safe and secure.
+
+{% hint style="info" %}
+The best practice to store your API key is to store values in .env so that they are not exposed.
+{% endhint %}
 
 6. Initialise SAWO and render the form according to the following steps:
 

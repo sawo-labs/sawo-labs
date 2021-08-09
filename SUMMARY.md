@@ -23,7 +23,7 @@
 ## Mobile-Development <a id="mobile"></a>
 
 * [Android](mobile/android.md)
-* [IOS](mobile/ios.md)
+* [iOS](mobile/ios.md)
 
 ## HYBRID
 
@@ -41,4 +41,8 @@
 ## Additonal Content
 
 * [React Component](additonal-content/react-component.md)
+
+## Migration
+
+* [Untitled](migration/untitled.md)
 
