@@ -54,7 +54,7 @@ If you are adding your domain do not add 'https://', ''http://', 'www' or even t
 The best practice to store your API key is to store values in .env so that they are not exposed.
 {% endhint %}
 
-6. Initialise SAWO and render the form according to the following steps:
+6. Initialize SAWO and render the form according to the following steps:
 
 * As part of this step, a **container** has to be created for the **SAWO component**. This has to be done on your project’s **source** file.
 
