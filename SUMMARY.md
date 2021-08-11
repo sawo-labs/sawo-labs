@@ -4,7 +4,7 @@
 * [Integrations](getting-started...md)
 * [Quickguides](quickguides.md)
 * [FAQS](faqs.md)
-* [Discord](https://discord.com/invite/TpnCfMUE5P)
+* [Discord👋](https://discord.com/invite/TpnCfMUE5P)
 
 ## Single Page
 
