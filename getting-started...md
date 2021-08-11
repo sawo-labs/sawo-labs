@@ -14,9 +14,9 @@ description: >-
 
 ## Web Apps
 
- [![](.gitbook/assets/flask.png)](web-apps/flask.md) [![](.gitbook/assets/nodejs.png)](web-apps/node-js.md) [![](.gitbook/assets/django-1-.png)](web-apps/django.md)  
+[![](.gitbook/assets/flask.png)](web-apps/flask.md) [![](.gitbook/assets/nodejs.png)](web-apps/node-js.md) [![](.gitbook/assets/django-1-.png)](web-apps/django.md)  
 
-  [![](.gitbook/assets/laravel.png)](web-apps/laravel.md)
+[![](.gitbook/assets/laravel.png)](web-apps/laravel.md)
 
 ## Mobile Dev
 
@@ -24,7 +24,11 @@ description: >-
 
 [![](.gitbook/assets/reactnative-1-.png) ](react-native.md)
 
-## No Code
+## No Code Platforms
 
 [![](.gitbook/assets/bubble.png) ](no-code/bubble.md)[![](.gitbook/assets/shopify.png) ](no-code/shopify.md) [![](.gitbook/assets/wordpress.png) ](no-code/wordpress.md)
+
+## Desktop Apps
+
+[![](.gitbook/assets/electron-1-.png) ](electron.md)
 
