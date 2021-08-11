@@ -6,7 +6,7 @@ description: >-
 
 # Android
 
-### Let's Get your React App running with SAWO 🙌
+### Let's Get your Android App running with SAWO 🙌
 
 ### Requirements  
 
@@ -128,7 +128,7 @@ val message = intent.getStringExtra(LOGIN_SUCCESS_MESSAGE)
 **Recommended**: Verify the payload sent by sdk from your backend
 {% endhint %}
 
-Python example:
+**Python example:**
 
 ```python
 import requests
