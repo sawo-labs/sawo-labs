@@ -48,6 +48,7 @@
 ## Additonal Content
 
 * [React Component](additonal-content/react-component.md)
+* [What to do with your Payload?](additonal-content/what-to-do-with-your-payload.md)
 
 ## Migration
 

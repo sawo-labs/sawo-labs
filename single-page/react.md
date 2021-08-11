@@ -138,5 +138,7 @@ We have another implementation that can be created as simple as an added [compon
 
 #### It's okay, we get it! You got Stuck! 😞 Feel free to contact us on \#ask-for-help on our [Discord](https://discord.com/invite/TpnCfMUE5P)
 
+{% page-ref page="../additonal-content/what-to-do-with-your-payload.md" %}
+
 {% page-ref page="../faqs.md" %}
 
