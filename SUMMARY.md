@@ -3,7 +3,7 @@
 * [Getting Started👋](README.md)
 * [Integrations](getting-started...md)
 * [Quickguides](quickguides.md)
-* [FAQS](faqs.md)
+* [FAQs](faqs.md)
 * [Discord👋](https://discord.com/invite/TpnCfMUE5P)
 
 ## Single Page
