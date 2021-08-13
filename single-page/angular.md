@@ -22,7 +22,7 @@ npm i sawo
 
 2. After installation is done, you have to **import the Sawo class** from the installed sawo package to the top of the file:
 
-```text
+```javascript
 import Sawo from "sawo"
 ```
 
@@ -35,7 +35,7 @@ import Sawo from "sawo"
 If using ''localhost" as hostname is not working for you, try "127.0.0.1" 🤓
 {% endhint %}
 
-    4.2. For the production, the hostname should be set to your domain. 
+    4.2. For production, the hostname should be set to your domain. 
 
 {% hint style="info" %}
 If you are adding your domain do not add 'https://', ''http://', 'www' or even trailing backslash.  
