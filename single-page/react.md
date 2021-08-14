@@ -57,7 +57,7 @@ The best practice to store your API key is to store values in _.env_  so that th
 * As part of this step, a **container** has to be created for the **SAWO component**. This has to be done on your project’s **source** file.
 
 ```markup
-<div id="sawo-container" style="height: 300px; width: 300px;"></div>
+<div id="sawo-container" style="height: 300px; width: 400px;"></div>
 ```
 
 * Some **configurations** have to be checked as given below. The code given below should help in the same.
