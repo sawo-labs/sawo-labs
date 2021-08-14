@@ -2,7 +2,9 @@
 
 * [Getting Started👋](README.md)
 * [Integrations](getting-started...md)
-* [Quickguides](quickguides.md)
+* [Quickguides](quickguides/README.md)
+  * [SAWO vs Social Login](quickguides/sawo-vs-social-login.md)
+  * [SAWO vs MFA](quickguides/sawo-vs-mfa.md)
 * [FAQs](faqs.md)
 * [Discord👋](https://discord.com/invite/TpnCfMUE5P)
 

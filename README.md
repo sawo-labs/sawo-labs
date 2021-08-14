@@ -10,7 +10,7 @@ If you wish to ask questions like Why a service over Single Sign-On or How much 
 
 ### How does SAWO work
 
-![](.gitbook/assets/sawo-works.png)
+![](.gitbook/assets/screenshot-2021-08-12-090055.png)
 
 SAWO SDK acts as a hidden layer between your user and your platform, it's a magic layer which after a very fast integration is able to give you unmatched performance, you may wish to know about how this all flows from few lines of code to all solutions, thus let us take you through the journey.
 
@@ -22,7 +22,7 @@ Now let's figure out what happens when the user wishes to log in, so the server 
 
 Also for user privacy, we even have OAuth protocols integrated through which we are able to make sure that for authenticated access to unrelated services and servers no sharing of the initial login credentials happens.
 
-### **Why SAWO** 
+### **Why SAWO**  
 
 SAWO is an authentication solution that can onboard users without any passwords or OTPs, thus making the process hassle-free, quick and secure. SAWO uses a strong cryptography-based authenticator which has a higher success rate than OTPs, passwords, and social logins. SAWO cares about privacy hence we provide all stakeholders with data autonomy. We also provide multi-platform SDKs, 12+ integrations, biometric authentication and save up to 75% of your authentication cost.
 
