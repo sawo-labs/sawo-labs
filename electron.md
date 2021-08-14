@@ -40,6 +40,10 @@ The best practice to store your API key is to store values in .env so that they 
 <div id="sawo-container" style="height: 300px; width: 300px;"></div>
 ```
 
+{% hint style="info" %}
+Every added custom field should be accompanied by a `50px` increase in the component height.
+{% endhint %}
+
 5. Include `sawo-electron.min.js` to your source, follow either of following method 1. If you have Content Security Policy enabled, download the `sawo-electron.min.js` using following command and include it in your root source directory
 
 ```bash

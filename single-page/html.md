@@ -43,6 +43,10 @@ The best practice to store your API key is to store values in .env so that they 
 <div id="sawo-container" style="height: 300px; width: 300px;"></div>
 ```
 
+{% hint style="info" %}
+Every added custom field should be accompanied by a `50px` increase in the component height.
+{% endhint %}
+
 5. Add the snippet at bottom of source inside `body` tag
 
 ```text
