@@ -4,5 +4,11 @@ In this article, we look at the widely prevalent multi-factor authentication mec
 
 {% page-ref page="sawo-vs-mfa.md" %}
 
-{% page-ref page="./" %}
+{% page-ref page="sawo-vs-social-login.md" %}
+
+{% page-ref page="sawo-vs-sso.md" %}
+
+{% page-ref page="customisation.md" %}
+
+
 
