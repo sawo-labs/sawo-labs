@@ -12,9 +12,7 @@ SAWO's Developer Dashboard is just another step by us to make the developers hap
 
 3.\) You will automatically be directed onto the projects screen, here just click on create a new project and select the platform you are looking to build your product on
 
-![](../.gitbook/assets/untitled-10-.png)
-
-![](../.gitbook/assets/untitled-11-.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 4.\) On selecting your platform you will find all the instructions right then and there which will get you to do the integration setup, do the required step and then just click onto continue and give your project a name.
 

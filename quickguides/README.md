@@ -1,9 +1,5 @@
 # Quickguides
 
-We look at the widely prevalent multi-factor authentication mechanism and pit it up against the newer passwordless authentication method to see which one works better.
-
-{% page-ref page="sawo-vs-mfa.md" %}
-
 We look at the vulnerable Social Login Authentication mechanism and pit it up against the safer passwordless authentication method to see which one works better.
 
 {% page-ref page="sawo-vs-social-login.md" %}

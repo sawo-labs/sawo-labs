@@ -1,9 +1,5 @@
 # FAQs
 
-### Can I become who I want to be?  
-
-That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
-
 ### **I am getting a 'Something went wrong, Please Contact Admin' error, What should I do?**
 
 This means your API key or hostname is incorrect. Verify the API key for your project, and follow the previous thread if it's a local setup.
@@ -28,7 +24,7 @@ We are working on more sample applications using other frameworks and will be up
 
 ### **\[React\] I get the message: TypeError: Cannot read property ‘appendChild’ of null. What should I do to fix this?**
 
-You will have to use the useEffect hook 
+You will have to use the useEffect hook.
 
 ### **I did not receive the OTP. Is there an option to resend it in the form?**
 
