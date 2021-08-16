@@ -56,6 +56,8 @@ description: >-
 
 
 
+**SAWO Dashboard**
+
 1. To use SAWO Login you would need an **API key** which can be obtained by creating a project in the [sawo dashboard](https://dev.sawolabs.com/). 
 
 2. Copy the **API key** from the project and keep it safe and secure.
@@ -63,6 +65,8 @@ description: >-
 {% hint style="info" %}
 The best practice to store your API key is to store values in .env so that they are not exposed.
 {% endhint %}
+
+
 
 **Congratulations !! The SAWO API is now ready to be used in your iOS application** 🤘**.**  
 
