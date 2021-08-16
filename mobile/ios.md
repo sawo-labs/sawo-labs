@@ -10,29 +10,6 @@ description: >-
 
 ### **Steps**
 
-1. To use SAWO Login you would need an **API key** which can be obtained by creating a project in the [sawo dashboard](https://dev.sawolabs.com/). 
-
-2.  Once you create your project, you would need to set your **project name and hostname.**  
-    2.1. For **development** in a local machine, the hostname should be set to **'localhost'.**
-
-{% hint style="info" %}
-If using ''localhost" as hostname is not working for you, try "127.0.0.1" 🤓 
-{% endhint %}
-
-    **2**.2. For **production**, the hostname should be set to your **domain.** 
-
-{% hint style="info" %}
-If you are adding your domain do not add 'https://', ''http://', 'www' or even trailing backslash.  
-**Example:**  
-`https://dev.sawolabs.com/` should be kept as `dev.sawolabs.com`
-{% endhint %}
-
-3. Copy the **API key** from the project and keep it safe and secure.
-
-{% hint style="info" %}
-The best practice to store your API key is to store values in .env so that they are not exposed.
-{% endhint %}
-
 #### iOS CocoaPod Integration
 
 1 iOS CocoaPod Integration
@@ -51,15 +28,41 @@ The best practice to store your API key is to store values in .env so that they 
 
 5. Select Identifiers and click + icon.
 
-
+![](../.gitbook/assets/add-identifier.png)
 
 6. Select App IDs in Certificates, Identifiers & Profiles Tab.
 
+![](../.gitbook/assets/app-ids.png)
+
 7. Select App as a type.
 
-8. Add you bundle ID mentioned in the project created and description. Now select App groups in the capabilities.
+![](../.gitbook/assets/select-app-template%20%281%29.png)
 
-9. 
+8. Add your bundle ID mentioned in the project created and description. Now select App groups in the capabilities.
+
+![](../.gitbook/assets/select-app-groups-capabilty.png)
+
+9. Go to signing and capabilities and select teams with apple developer account linked to it and. Click on capabilities button
+
+![](../.gitbook/assets/select-apple-developer-account-in-team.png)
+
+10. Select app groups in capabilities.
+
+![](../.gitbook/assets/select-app-groups-in-capabilities.png)
+
+11. Add App group - “ ”
+
+![](../.gitbook/assets/add-app-group.png)
+
+
+
+1. To use SAWO Login you would need an **API key** which can be obtained by creating a project in the [sawo dashboard](https://dev.sawolabs.com/). 
+
+2. Copy the **API key** from the project and keep it safe and secure.
+
+{% hint style="info" %}
+The best practice to store your API key is to store values in .env so that they are not exposed.
+{% endhint %}
 
 **Congratulations !! The SAWO API is now ready to be used in your iOS application** 🤘**.**  
 
