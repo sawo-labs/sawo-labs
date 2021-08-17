@@ -57,4 +57,5 @@
 ---
 
 * [Password](password.md)
+* [Social Sign](social-sign.md)
 
