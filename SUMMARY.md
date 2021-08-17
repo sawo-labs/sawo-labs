@@ -39,9 +39,7 @@
 ## No Code
 
 * [Bubble](no-code/bubble.md)
-* [Shopify](no-code/shopify.md)
 * [Wordpress](no-code/wordpress.md)
-* [WooCommerce](no-code/woocommerce.md)
 
 ## DESKTOP APPS
 
@@ -55,4 +53,8 @@
 * [What to do with your Payload?](additonal-content/what-to-do-with-your-payload.md)
 
 ## Migration
+
+---
+
+* [Password](password.md)
 
