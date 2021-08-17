@@ -26,7 +26,7 @@ description: >-
 
 ## No Code Platforms
 
-[![](.gitbook/assets/bubble.png) ](no-code/bubble.md)[![](.gitbook/assets/shopify.png) ](no-code/shopify.md) [![](.gitbook/assets/wordpress.png) ](no-code/wordpress.md)
+[![](.gitbook/assets/bubble.png)](no-code/bubble.md) [![](.gitbook/assets/wordpress.png) ](no-code/wordpress.md)
 
 ## Desktop Apps
 
