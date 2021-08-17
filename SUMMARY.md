@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Getting Started👋](README.md)
+* [Getting Started](README.md)
 * [Integrations](getting-started...md)
 * [Quickguides](quickguides/README.md)
   * [Dashboard](quickguides/dashboard.md)
