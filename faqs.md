@@ -8,10 +8,6 @@ This means your API key or hostname is incorrect. Verify the API key for your pr
 
 If you are doing a local setup, use 'localhost', and if that doesn't work, '127.0.0.1' should do the trick.
 
-### **I get the message: Something went wrong loading the login form, please contact the site admin. What should I do?**
-
-This means your API key or 'hostname' is incorrect. Verify the key, and follow the previous thread if it's a local setup.
-
 ### **How do I change the background colour and border settings on the authentication page?**
 
 You can change the button background colour from the developer dashboard under the design tab which also includes more customization. There is currently no option to customise the border, and we are working on more customization options.
