@@ -5,11 +5,12 @@ Proper planning is critical for the conduction of successful migration, at  SAWO
 
 ## How can I implement SAWO in my Own App?
 
-![How the SDK works without storing user data at any time](.gitbook/assets/whitepaper.png)
-
-  
 As you already have a authentication logic that validates passwords stored in your own   
 Database. We don't store any data of our end clients. A simple payload is returned to you so it makes your life easier so you can map your clients with the identifier you chose
+
+### How the SDK works without storing user data at any time
+
+
 
 ![Proposed migration process](.gitbook/assets/flowchart-1-.png)
 
