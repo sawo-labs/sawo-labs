@@ -8,7 +8,7 @@
   * [SAWO vs SSO](quickguides/sawo-vs-sso.md)
   * [SAWO vs Social Login](quickguides/sawo-vs-social-login.md)
 * [FAQs](faqs.md)
-* [Ask the community😮‍💨](discord.md)
+* [Ask the community](discord.md)
 
 ## Single Page
 

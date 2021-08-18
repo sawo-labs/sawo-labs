@@ -1,4 +1,4 @@
-# Ask the community😮‍💨
+# Ask the community
 
 #### **DISCORD**
 
@@ -12,20 +12,17 @@ Also, discord turns out to be the home of team SAWO and along with its a communi
 
 Going around on Discord and getting your work done
 
-1. Firstly click on our community link: [https://discord.com/invite/TpnCfMUE5P](https://discord.com/invite/TpnCfMUE5P)
-2. Now discord must have opened so the first task is to set up a username, you can ideally keep it as your name but there's always space for creativity and we do enjoy cool nicknames.
+1. Firstly click on our community link: [Discord](https://discord.com/invite/TpnCfMUE5P)
 
-![](.gitbook/assets/untitled-5-.png)
-
-3. We already have a small welcome guide prepared for you at the server itself where you can choose what you are looking for
+   2. We already have a small welcome guide prepared for you at the server itself where you can choose what you are looking for
 
 ![](.gitbook/assets/untitled-6-.png)
 
-4. Ideally, we will recommend you to go to the introduction section and introduce yourself to the community, we have some awesome people who will love to interact with you
+3. Ideally, we will recommend you to go to the introduction section and introduce yourself to the community, we have some awesome people who will love to interact with you
 
 ![](.gitbook/assets/untitled-7-.png)
 
-5.\) We already have made spaces for everything you will need, you can go into the following sections:
+4.\) We already have made spaces for everything you will need, you can go into the following sections:
 
 * feedback: Anything about SAWO which you wish to convey to us then this is the place
 * i-made-this: We love to see what people are making you can showcase your products to the community
