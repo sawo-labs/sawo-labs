@@ -8,11 +8,17 @@ Proper planning is critical for the conduction of successful migration, at  SAWO
 As you already have a authentication logic that validates passwords stored in your own   
 Database. We don't store any data of our end clients. A simple payload is returned to you so it makes your life easier so you can map your clients with the identifier you chose
 
-### How the SDK works without storing user data at any time
 
 
+{% hint style="info" %}
+### How does our SDK work? 
 
-![Proposed migration process](.gitbook/assets/flowchart-1-.png)
+We authenticate your end customer with asymmetric encryption and post out a payload of your client with det
+{% endhint %}
+
+ 
+
+![](.gitbook/assets/flow_cahrt.jpg)
 
 ### Replacing your own Login form with Our Iframe
 
