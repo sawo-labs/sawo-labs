@@ -8,7 +8,9 @@ description: >-
 
 ### Dummy Payload
 
-SAWO's SDK returns a payload that is similar to:
+The Payload of an API Module is the body of your request and response message. It contains the data that you send to the server when you make an API request. You can send and receive Payload in different formats, for instance JSON.
+
+On successful authentication, SAWO's SDK returns a payload that is similar to the JSON that is shown below:
 
 ```javascript
 Payload : {
@@ -22,7 +24,14 @@ Payload : {
 
 ```
 
-This is a dummy payload.
+This is a dummy payload that is shown above where,
+
+`user_id` is  
+`created_on` is  
+`identifier` is  
+`identifier_type` is  
+`verification_token` is  
+`customFieldInputValues` is
 
 explain key, added custom fields, suceeful auth can be 
 
