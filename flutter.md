@@ -116,7 +116,7 @@ When a user is successfully verified, the callback method will get invoked with 
 
 **Congratulations !! The SAWO API is now ready to be used in your Flutter application** 🤘**.**  
 
-#### You can also check out SAWO's [Flutter Sample Code](https://github.com/sawolabs/flutter-sdk).
+#### You can also check out SAWO's [Flutter Sample Code](https://github.com/sawolabs/flutter-sdk/tree/master/example).
 
 #### It's okay, we get it! You got Stuck! 😞 Feel free to contact us on \#ask-for-help on our [Discord](https://discord.com/invite/TpnCfMUE5P)
 
