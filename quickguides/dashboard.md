@@ -20,5 +20,5 @@ SAWO's Developer Dashboard is just another step by us to make the developers hap
 
 5.\) On clicking create you will see your project has been created, the keys have already been downloaded onto your device and now let's head over the docs section and finish your integration
 
-![](../.gitbook/assets/untitled-13-.png)
+![](../.gitbook/assets/untitled-13-1-.png)
 
