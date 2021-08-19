@@ -5,7 +5,7 @@ Proper planning is critical for the conduction of successful migration, at  SAWO
 
 ## How can I implement SAWO in my Own App?
 
-As you already have a authentication logic that validates passwords stored in your own   
+As you already have an authentication logic that validates passwords stored in your own   
 Database. We don't store any data of our end clients. A simple payload is returned to you so it makes your life easier so you can map your clients with the identifier you chose
 
 
@@ -13,12 +13,12 @@ Database. We don't store any data of our end clients. A simple payload is return
 {% hint style="info" %}
 ### How does our SDK work? 
 
-We authenticate your end customer with asymmetric encryption and post out a payload of your client with det
+We authenticate your end customer with asymmetric encryption and post out a payload of your client with details.
 {% endhint %}
 
  
 
-![](.gitbook/assets/flow_cahrt.jpg)
+![](.gitbook/assets/flowchart-3-.png)
 
 ### Replacing your own Login form with Our Iframe
 

@@ -33,22 +33,22 @@ This is a dummy payload that is shown above where,
 `created_on` contains the date and time of the authentication.  
 `identifier` holds the value of your email-id or phone-number.  
 `identifier_type` is the type of identifier that the user has defined.  
-`verification_token` is a unique string which is used to authenticate   
-`customFieldInputValues` is an object where it contains deatils a key of the name of the field and value contains the value of that field.
+`verification_token` is a unique string that is used to authenticate   
+`customFieldInputValues` is an object where it contains details of a key of the name of the field and value contains the value of that field.
 
 On successful authentication, the payload would come as a response and it was be utilised in various manners. Some of them are: 
 
 ### Storing Data to Database
 
-The payload that a user receives can be stored in a database as the payload contains vital information regarding the user. 
+The payload received by you will be containing essential knowledge about your customer, you can easily store that in a database for further usage of data.
 
-### Mangaing Session Storage
+### Managing Session Storage
 
-The payload contains verification token which can be used to maintain sessions as challenge happens with the string combination of verification token with the private key. 
+The payload contains a verification token that can be used to maintain sessions as a challenge happens with the string combination of the verification token with the private key. 
 
-This can be helpful to store sessions in a users machine.
+This can be helpful to store sessions in a user's machine.
 
 ### CRM 
 
-The data that comes along with payload can be fed into the CRM system so that the companies are connected to customers, streamline processes, and improve overall experience.
+The data that comes along with the payload can be fed into the CRM system so that the companies are connected to customers, streamline processes, and improve the overall experience.
 
