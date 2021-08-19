@@ -14,10 +14,10 @@ SAWO was built in mind keeping and prioritizing both the user and the developer,
 
 Where you will be able to see three types of fields
 
-1. Choose Identifier Type: The default setting for the SAWO API is to enable user login through email but here you can decide between mobile or email.
-2. Add Custom Fields: We understand that during registration firms may need more additional data objects, thus here you can add as many fields which you want to know from the user using just 2 clicks.
-3. Identifier Verification: Here you can enable Google Recaptcha into your platform to add an extra layer of security.
-4. Configuration: Here are the advanced settings, you can here set the Session cooldown, what should the SMS and Email bodies look like when a user attempts to get access.
+1. Choose Identifier Type:  The default setting for the SAWO API is to enable user login through email but here you can decide between mobile or email.
+2. Add Custom Fields:  We understand that during registration firms may need more additional data objects, thus here you can add as many fields which you want to know from the user using just 2 clicks.
+3. Identifier Verification:  Here you can enable Google Recaptcha into your platform to add an extra layer of security.
+4. Configuration:  Here are the advanced settings, you can here set the Session cooldown, what should the SMS and Email bodies look like when a user attempts to get access.
 
 ![](../.gitbook/assets/untitled-2-.png)
 
@@ -31,5 +31,5 @@ Where you will be able to see three types of fields
 
 ![](../.gitbook/assets/untitled-4-.png)
 
-Here feel free to choose the correct color scheme and make sure your forms looks exactly the way you want!
+Here feel free to choose the correct color scheme and make sure your forms look exactly the way you want!
 
