@@ -19,31 +19,36 @@ Payload : {
     "identifier":"john@gmail.com",
     "identifier_type":"email",
     "verification_token":"0mkauQoeDeAf97rJcLpRmkmFuIH0bRpFsi6d",
-    "customFieldInputValues":{}
+    "customFieldInputValues":{
+        "Name":"John",
+        "Company Name":"SAWO Labs"
+        }
     }
 
 ```
 
 This is a dummy payload that is shown above where,
 
-`user_id` is  
-`created_on` is  
-`identifier` is  
-`identifier_type` is  
-`verification_token` is  
-`customFieldInputValues` is
+`user_id` is a unique string that is generated when a user has been successfully authenticated.  
+`created_on` contains the date and time of the authentication.  
+`identifier` holds the value of your email-id or phone-number.  
+`identifier_type` is the type of identifier that the user has defined.  
+`verification_token` is a unique string which is used to authenticate   
+`customFieldInputValues` is an object where it contains deatils a key of the name of the field and value contains the value of that field.
 
-explain key, added custom fields, suceeful auth can be 
+On successful authentication, the payload would come as a response and it was be utilised in various manners. Some of them are: 
 
-### Database
+### Storing Data to Database
 
-The payload that a user receives can be stored in a database as the payload contains vital information regarding the user.
+The payload that a user receives can be stored in a database as the payload contains vital information regarding the user. 
 
-### Session Storage
+### Mangaing Session Storage
 
+The payload contains verification token which can be used to maintain sessions as challenge happens with the string combination of verification token with the private key. 
 
+This can be helpful to store sessions in a users machine.
 
 ### CRM 
 
-examples sales
+The data that comes along with payload can be fed into the CRM system so that the companies are connected to customers, streamline processes, and improve overall experience.
 
