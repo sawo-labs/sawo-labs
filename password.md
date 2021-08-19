@@ -16,8 +16,6 @@ Database. We don't store any data of our end clients. A simple payload is return
 We authenticate your end customer with asymmetric encryption and post out a payload of your client with details.
 {% endhint %}
 
- 
-
 ![](.gitbook/assets/flowchart-3-.png)
 
 ### Replacing your own Login form with Our Iframe
