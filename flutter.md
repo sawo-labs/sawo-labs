@@ -14,7 +14,7 @@ description: >-
 
 ```text
 dependencies:
-  sawo: ^0.1.0
+  sawo: ^0.1.2
 ```
 
 2. After this, **install the plugin**, by running the mentioned command:
@@ -31,27 +31,18 @@ import 'package:sawo/sawo.dart';
 
 4. To use **SAWO Login** you would need an **API key** which can be obtained by creating a project in the [sawo dashboard](https://dev.sawolabs.com/). 
 
-5.  Once you create your project, you would need to set your **project name and hostname.**  
-    5.1. For **development** in a local machine, the hostname should be set to **'localhost'.**
-
-{% hint style="info" %}
-If using ''localhost" as hostname is not working for you, try "127.0.0.1" 🤓 
-{% endhint %}
-
-       ****5.2. For the **production**, the hostname should be set to your **domain**. 
-
-{% hint style="info" %}
-If you are adding your domain do not add 'https://', ''http://', 'www' or even trailing backslash.  
-**Example:**  
-`https://dev.sawolabs.com/` should be kept as `dev.sawolabs.com`
-{% endhint %}
+5.  Once you create your project, you would need to set your **project name.**
 
 6. Copy the **API key** from the project and keep it safe and secure.
 
+{% hint style="info" %}
+It is always recommended to store your apiKey and secretKey in a .env file. Otherwise, create a separate .dart file and add it to the .gitignore. Just make sure that you are not exposing the keys publicly and also add them to the .gitignore before pushing the project to a public repo.
+{% endhint %}
+
 7. Next, **create** a **Sawo Instance**
 
-```text
-  Sawo sawo = new Sawo(
+```kotlin
+    Sawo sawo = new Sawo(
         apiKey: <YOUR-API-KEY>,
         secretKey: <YOUR-Secret-Key>,
      );
@@ -59,75 +50,63 @@ If you are adding your domain do not add 'https://', ''http://', 'www' or even t
 
 8. Use the following code to **redirect** the user to the **login** page.
 
-```text
-// Sawo configuration object
-    var config = {};
-    // user payload
-    String user;
-    void payloadCallback(context, payload) {
-      if (payload == null || (payload is String && payload.length == 0)) {
-        payload = "Login Failed :(";
-      }
-      setState(() {
-        user = payload;
-      });
-    }
+{% hint style="info" %}
+SAWO provides two ways to authenticate users, one by email and one by phone number.
+{% endhint %}
 
-    void toogleState(typedata, text) => setState(() {
-          config[typedata] = text;
-        });
+```kotlin
+  // sawo object
+  Sawo sawo = Sawo(
+    apiKey: "Your API Key",
+    secretKey: "Your Secret key",
+  );
 
-    @override
-    Widget build(BuildContext context) {
-      Sawo sawo;
-      return Center(
-        child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-          TextField(
-            onChanged: (text) {
-              toogleState("apiKey", text);
-            },
-            decoration:
-                InputDecoration(hintText: 'API Key', labelText: 'API Key'),
-          ),
-          TextField(
-            onChanged: (text) {
-              toogleState("secretKey", text);
-            },
-            decoration:
-                InputDecoration(hintText: 'SecretKey', labelText: 'SecretKey'),
-          ),
-          Text("UserData :- $user"),
-          ElevatedButton(
-            onPressed: () {
-              Sawo sawo = new Sawo(
-                apiKey: config["apiKey"],
-                secretKey: config["secretKey"],
-              );
-              sawo.signIn(
-                context: context,
-                identifierType: 'email',
-                callback: payloadCallback,
-              );
-            },
-            child: Text('Email Login'),
-          ),
-          ElevatedButton(
-            onPressed: () {
-              Sawo sawo = new Sawo(
-                apiKey: config["apiKey"],
-                secretKey: config["secretKey"],
-              );
-              sawo.signIn(
-                context: context,
-                identifierType: 'phone_number_sms',
-                callback: payloadCallback,
-              );
-            },
-            child: Text('Phone Login'),
-          ),
-        ]),
-      );
+  // user payload
+  String user = "";
+
+  void payloadCallback(context, payload) {
+    if (payload == null || (payload is String && payload.length == 0)) {
+      payload = "Login Failed :(";
     }
+    setState(() {
+      user = payload;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 20),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text("UserData :- $user"),
+            ElevatedButton(
+              onPressed: () {
+                sawo.signIn(
+                  context: context,
+                  identifierType: 'email',
+                  callback: payloadCallback,
+                );
+              },
+              child: Text('Email Login'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                sawo.signIn(
+                  context: context,
+                  identifierType: 'phone_number_sms',
+                  callback: payloadCallback,
+                );
+              },
+              child: Text('Phone Login'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
 
 ```
 
