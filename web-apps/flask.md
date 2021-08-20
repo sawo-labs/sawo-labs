@@ -20,13 +20,13 @@ Python, pip \(package-management system written in Python used to install and ma
 
 1. The first step to getting started with SAWO API integration into your Django website/application is to **install the sawo** package as given below:
 
-```text
+```python
 pip install sawo
 ```
 
 2. Next, you have to import **createTemplate**, **getContext,** and **verifyToken** methods from Sawo. The **getContext** method is used to create sawo dictionary object from data gain from Django Database. The ways to create the template and verify the token are given in subsequent steps.
 
-```text
+```python
 from sawo import createTemplate, getContext, verifyToken
 ```
 
@@ -57,7 +57,7 @@ The best practice to store your API key is to store values in .env so that they 
 
 * First, you have to **create a template** for SAWO password-less and OTP-less Authentication for your Flask website. Use the code given below for the same:
 
-  ```text
+  ```python
   createTemplate("./<filepath>",flask=True)
   #example
   createTemplate("./templates/partials",flask=True)
@@ -75,17 +75,16 @@ If you don’t know how data is passed to templates in Django or Flask. We will 
 
 *  Creating fields for **sawo api\_key** and identifier to set it from **admin** dashboard. Copy this code in models of your app
 
-```text
+```python
 class Config(models.Models):
     api_key = models.CharField(max_length=200)
     identifier = models.CharField(max_length=200)
     choices = [("email","Email"),("phone_number_sms","Phone")]
-    
 ```
 
 * Setting up **view.py** of the app. Note: Route should be the receiving end where you can handle post request
 
-```text
+```python
 from models import Config
 from sawo import getContext
 
@@ -109,7 +108,7 @@ def index(request):
 
 **FLASK**
 
-```text
+```python
 "sawo":{
        "auth_key": "<api_key>",
        "identifier": "email | phone_number_sms"
@@ -131,7 +130,7 @@ When the login is done on the webpage it sends the data to **backend as a payloa
 
 BACKEND CODE IS THE SAME FOR DJANGO AND FLASK
 
-```text
+```python
 from sawo import verifyToken
 
 #use the method provided by flask and django to receive the 
