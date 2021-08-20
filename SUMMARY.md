@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Getting Started](README.md)
+* [Getting Started 🚀](README.md)
 * [Integrations](getting-started...md)
 * [Quickguides](quickguides/README.md)
   * [Dashboard](quickguides/dashboard.md)
@@ -56,6 +56,6 @@
 
 ---
 
-* [Password](password.md)
-* [Social Sign](social-sign.md)
+* [Migrating from Passwords to SAWO's Passwordless](password.md)
+* [Social Sign On to SAWO](social-sign.md)
 
