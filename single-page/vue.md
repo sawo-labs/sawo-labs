@@ -22,7 +22,7 @@ npm i sawo
 
 2. After installation is done, you have to **import the Sawo class** from the installed sawo package to the top of the file:
 
-```text
+```javascript
 import Sawo from "sawo"
 ```
 
@@ -35,7 +35,7 @@ import Sawo from "sawo"
 If using ''localhost" as hostname is not working for you, try "127.0.0.1" 🤓
 {% endhint %}
 
-    4.2. For the **production**, the hostname should be set to your **domain**. 
+    4.2. For **production**, the hostname should be set to your **domain**. 
 
 {% hint style="info" %}
 If you are adding your domain do not add 'https://', ''http://', 'www' or even trailing backslash.  
@@ -53,7 +53,7 @@ The best practice to store your API key is to store values in .env so that they 
 
 * As part of this step, a **container** has to be created for the **SAWO component.** This has to be done on your project’s **source** file.
 
-```text
+```markup
 <div id="sawo-container" style="height: 300px; width: 300px;"></div>
 ```
 
@@ -63,8 +63,8 @@ Every added custom field should be accompanied by a `50px` increase in the compo
 
 * Some **configurations** have to be checked as given below. The code given below should help in the same.
 
-```text
- var config = {
+```javascript
+var config = {
         // should be same as the id of the container created on 3rd step
         containerID: "<container-ID>",
         // can be one of 'email' or 'phone_number_sms'
@@ -78,7 +78,7 @@ Every added custom field should be accompanied by a `50px` increase in the compo
 
 * Then a **SAWO instance** has to be **created** using the code given below:
 
-```text
+```javascript
 let sawo = new Sawo(config)
 ```
 
@@ -90,7 +90,7 @@ sawo.showForm()
 
 7. Below code-block can be used as a reference **after** you have completed setting up your project:
 
-```text
+```markup
 <template>
   <div class="containerStyle">
     <section>
