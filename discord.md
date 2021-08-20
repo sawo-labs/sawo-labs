@@ -12,7 +12,7 @@ Also, discord turns out to be the home of team SAWO and along with its a communi
 
 Going around on Discord and getting your work done
 
-1. Firstly click on our community link: [Discord](https://discord.com/invite/TpnCfMUE5P)
+1. Join our Discord: [Discord](https://discord.com/invite/TpnCfMUE5P)
 
    2. We already have a small welcome guide prepared for you at the server itself where you can choose what you are looking for
 
@@ -27,7 +27,7 @@ Going around on Discord and getting your work done
 * feedback: Anything about SAWO which you wish to convey to us then this is the place
 * i-made-this: We love to see what people are making you can showcase your products to the community
 * ideas-and-tips: Have an idea which you wish to discuss with like-minded people or are looking to give or take some tips
-* ask-for-help: Here we have a team of awesome developers to help you out with all queries which you can offer to them
+* **ask-for-help**: Here we have a team of awesome developers to help you out with all queries which you can offer to them
 * feature-request: We at SAWO always believe in innovating the product, so if you feel like there is something amiss and should be there, just point it out to us and we will have our team cook it up
 * jobs-internship: SAWO is growing rapidly and thus we are always looking for awesome people to join the team, here find all the roles and all the information about them which you may need
 
