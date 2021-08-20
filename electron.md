@@ -61,7 +61,7 @@ If you don't have Content Security Policy enabled, include `sawo-electron.min.js
 
 6. Add the snippet at bottom of source inside `body` tag
 
-```text
+```markup
 <script>
     var config = {
         // should be same as the id of the container created on 3rd step
@@ -85,7 +85,7 @@ If you don't have Content Security Policy enabled, include `sawo-electron.min.js
 
 Python Example:
 
-```text
+```python
 import requests
 
 data = {
@@ -102,8 +102,6 @@ if res.status_code == 200:
 {% endhint %}
 
 **Congratulations !! The SAWO API is now ready to be used in your React application** 🤘**.**  
-
-#### You can also check out SAWO's [React Sample Code](https://github.com/sawolabs/React-Sample-App) and [Deployed App](https://sawo-react-sample-app.netlify.app/).
 
 #### It's okay, we get it! You got Stuck! 😞 Feel free to contact us on \#ask-for-help on our [Discord](https://discord.com/invite/TpnCfMUE5P)
 
