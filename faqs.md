@@ -14,9 +14,9 @@ You can change the button background colour from the developer dashboard under t
 
 ### **Can I get help with integrating using Django?**
 
-Here is an example of a sample Django application built using the pip package: Please go through the documentation for integration here:
+Here is an example of a sample Django application built using the pip package: Please go through the documentation for integration here: [Django-Sawo-Sample](https://github.com/sawolabs/Django_Sample_App)
 
-We are working on more sample applications using other frameworks and will be updated soon!
+
 
 ### **\[React\] I get the message: TypeError: Cannot read property ‘appendChild’ of null. What should I do to fix this?**
 
@@ -69,6 +69,8 @@ SAWO returns a payload after successful login from the user based on the identif
 You can get this from console.log from the payload.
 
 You can build a sample application, for instance, on React using the SAWO npm package.[ Here](https://sawo-react-sample-app.netlify.app/) is an example
+
+Have a look at [_What can i do with my payload?_](additonal-content/what-to-do-with-your-payload.md)\_\_
 
 ### **\[Flask\] Could I please get some help with making an authentication system with Flask, Python?**
 
