@@ -8,22 +8,18 @@ description: >-
 
 ### Let's Get your HTML running with SAWO 🙌
 
-### **Requirements**
-
-
-
 ### **Steps**
 
 1. To use SAWO Login you would need an **API key** which can be obtained by creating a project in the [sawo dashboard](https://dev.sawolabs.com/). 
 
 2.  Once you create your project, you would need to set your project name and hostname.  
-    2.1 For development in a local machine, the hostname should be set to 'localhost'.
+    2.1 For **development** in a local machine, the hostname should be set to '**localhost**'.
 
 {% hint style="info" %}
 If using ''localhost" as hostname is not working for you, try "127.0.0.1" 🤓 
 {% endhint %}
 
-    2.2 For production, the hostname should be set to your domain
+    2.2 For **production**, the hostname should be set to your domain
 
 {% hint style="info" %}
 If you are adding your domain do not add 'https://', ''http://', 'www' or even trailing backslash.  
@@ -39,7 +35,7 @@ The best practice to store your API key is to store values in .env so that they 
 
 4. On your source, create a container for sawo component inside `body` tag
 
-```text
+```markup
 <div id="sawo-container" style="height: 300px; width: 300px;"></div>
 ```
 
@@ -49,7 +45,7 @@ Every added custom field should be accompanied by a `50px` increase in the compo
 
 5. Add the snippet at bottom of source inside `body` tag
 
-```text
+```markup
 <script src="https://websdk.sawolabs.com/sawo.min.js"></script>    
 <script>
     var config = {
@@ -74,7 +70,7 @@ Every added custom field should be accompanied by a `50px` increase in the compo
 
 Python Example
 
-```text
+```python
 import requests
 
 data = {
