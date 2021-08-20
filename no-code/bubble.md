@@ -60,11 +60,9 @@ For the respective action, **trigger** login or signup function.
 
 \*\*\*\*
 
-\*\*\*\*
+### **Congratulations !! The SAWO API is now ready to be used in your Bubble application** 🤘**.**  
 
-**Congratulations !! The SAWO API is now ready to be used in your Bubble application** 🤘**.**  
-
-#### It's okay, we get it! You got Stuck! 😞 Feel free to contact us on \#ask-for-help on our [Discord](https://discord.com/invite/TpnCfMUE5P)
+### It's okay, we get it! You got Stuck! 😞 Feel free to contact us on \#ask-for-help on our [Discord](https://discord.com/invite/TpnCfMUE5P)
 
 
 
