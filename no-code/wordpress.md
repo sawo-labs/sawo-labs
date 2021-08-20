@@ -56,18 +56,12 @@ If you are adding your domain do not add 'https://', ''http://', 'www' or even t
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-**Congratulations !! The SAWO API is now ready to be used in your WordPress Website** 🤘**.**  
+### **Congratulations !! The SAWO API is now ready to be used in your WordPress Website** 🤘**.**  
 
 {% hint style="info" %}
 **Note:**  
 You can buy/renew your SAWO subscription by clicking the “Buy/Renew SAWO Subscription?” button
 {% endhint %}
 
-#### It's okay, we get it! You got Stuck! 😞 Feel free to contact us on \#ask-for-help on our [Discord](https://discord.com/invite/TpnCfMUE5P)
-
-
-
-
-
-
+### It's okay, we get it! You got Stuck! 😞 Feel free to contact us on \#ask-for-help on our [Discord](https://discord.com/invite/TpnCfMUE5P)
 
