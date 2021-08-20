@@ -31,7 +31,7 @@ This is a dummy payload that is shown above where,
 
 `user_id` is a unique string that is generated when a user has been successfully authenticated.  
 `created_on` contains the date and time of the authentication.  
-`identifier` holds the value of your email-id or phone-number.  
+`identifier` holds the value of your `email-id` or `phone-number`.  
 `identifier_type` is the type of identifier that the user has defined.  
 `verification_token` is a unique string that is used to authenticate   
 `customFieldInputValues` is an object where it contains details of a key of the name of the field and value contains the value of that field.
@@ -44,8 +44,7 @@ The payload received by you will be containing essential knowledge about your cu
 
 ### Managing Session Storage
 
-The payload contains a verification token that can be used to maintain sessions as a challenge happens with the string combination of the verification token with the private key. 
-
+The payload contains a verification token that can be used to maintain sessions as a challenge happens with the string combination of the verification token with the private key.   
 This can be helpful to store sessions in a user's machine.
 
 ### CRM 

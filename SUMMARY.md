@@ -13,6 +13,7 @@
 ## Single Page
 
 * [React](single-page/react.md)
+* [SAWO React Component](single-page/react-component.md)
 * [Angular](single-page/angular.md)
 * [Vue](single-page/vue.md)
 * [HTML](single-page/html.md)
@@ -49,7 +50,6 @@
 
 ## Additonal Content
 
-* [SAWO React Component](additonal-content/react-component.md)
 * [What to do with your Payload?](additonal-content/what-to-do-with-your-payload.md)
 
 ## Migration

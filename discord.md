@@ -1,6 +1,6 @@
 # Ask the community
 
-#### **DISCORD**
+### \*\*\*\*[**DISCORD**](https://discord.com/invite/TpnCfMUE5P)\*\*\*\*
 
 **What is Discord?**
 

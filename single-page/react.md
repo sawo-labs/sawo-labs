@@ -130,7 +130,7 @@ export default LoginPage
 ![Final Render of SAWO Login.](../.gitbook/assets/sawo.png)
 
 {% hint style="info" %}
-We have another implementation that can be created as simple as an added [component](../additonal-content/react-component.md).
+We have another implementation that can be created as simple as an added [component](react-component.md).
 {% endhint %}
 
 **Congratulations !! The SAWO API is now ready to be used in your React application** 🤘**.**  

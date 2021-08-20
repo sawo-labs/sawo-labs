@@ -53,17 +53,17 @@ The best practice to store your API key is to store values in .env so that they 
 
 * As part of this step, a container has to be created for the SAWO component. This has to be done on your project’s source file.
 
-```text
+```markup
 <div id="sawo-container" style="height: 300px; width: 300px;"></div>
 ```
 
 {% hint style="info" %}
-Every added custom field should be accompanied by a `50px` increase in the component height.
+Every added custom field should be accompanied by an `50px` increase in the component height.
 {% endhint %}
 
 * Some configurations have to be checked as given below. The code given below should help in the same.
 
-```text
+```javascript
  var config = {
         // should be same as the id of the container created on 3rd step
         containerID: "<container-ID>",
@@ -78,19 +78,19 @@ Every added custom field should be accompanied by a `50px` increase in the compo
 
 * Then a SAWO instance has to be created using the code given below:
 
-```text
+```javascript
 let sawo = new Sawo(config)
 ```
 
 * The **showForm** method should be called thereafter as the **showForm** method is responsible for rendering the form in the given container.
 
-```text
+```javascript
 sawo.showForm()
 ```
 
 7. Below code-block can be used as a reference after you have completed setting up your project:
 
-```text
+```javascript
 import { Component } from '@angular/core';
 import Sawo from "sawo"
 
@@ -141,7 +141,7 @@ export class AppComponent {
 
 ### **Congratulations !! The SAWO API is now ready to be used in your Angular application** 🤘**.**
 
-### You can also check out SAWO's [Angular Sample Code](https://github.com/sawolabs/sawo-examples/tree/master/angular) and [Deployed App](https://github.com/sawolabs/sawo-examples/tree/master/angular).
+### You can also check out SAWO's [Angular Sample Code](https://github.com/sawolabs/Angular-Sample-App) and [Deployed App](https://github.com/sawolabs/sawo-examples/tree/master/angular).
 
 ### It's okay, we get it! You got Stuck! 😞 Feel free to contact us on \#ask-for-help on our [Discord](https://discord.com/invite/TpnCfMUE5P)
 
