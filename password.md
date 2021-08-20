@@ -6,10 +6,8 @@ Proper planning is critical for the conduction of successful migration, at  SAWO
 
 ## How can I implement SAWO in my Own App/Website?
 
-As you already have an authentication logic that validates passwords stored in your own   
-Database. We don't store any data of our end clients. A simple payload is returned to you so it makes your life easier so you can map your clients with the identifier you chose
-
-
+As you already have an authentication logic that validates passwords stored in your own database, most of the work has been completed by you and we don't want you to worry about anything else now, so,  we don't store any data of our end clients.   
+A simple payload is returned to you using which you can conveniently map your clients with the identifier you chose.
 
 {% hint style="info" %}
 ### How does our SDK work? 
@@ -21,7 +19,7 @@ We authenticate your end customer with asymmetric encryption and post out a payl
 
 ### Replacing your Login form with Our iframe
 
-Let us handle your authentication so that you have to worry less
+This is the moment from where we start taking over your worries, initially, we request you to replace your current login form with SAWO.
 
 ### What happens after you replace your login form?
 
