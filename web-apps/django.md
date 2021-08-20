@@ -15,7 +15,7 @@ description: >-
 
 #### **Requirements**
 
-Python, pip 
+Python, pip \(package-management system written in Python used to install and manage software packages\)
 
 **Steps**
 
@@ -28,7 +28,7 @@ pip install sawo
 2. Next, you have to **import createTemplate, getContext, and verifyToken** methods from Sawo. The **getContext** method is used to create sawo dictionary object from data gain from Django Database. The ways to create the template and verify the token are given in subsequent steps.  
 
 
-```text
+```python
 from sawo import createTemplate, getContext, verifyToken
 ```
 
@@ -60,11 +60,10 @@ The best practice to store your API key is to store values in .env so that they 
 
 * First, create a template for SAWO password-less and OTP-less Authentication on your Django website. Use the code given below for the same:
 
-```text
+```python
 createTemplate("<filepath>")
 #example
 createTemplate("templates/partials")
-
 ```
 
 * Next, you have to send this data required by \_sawo.html. The variable names used in \_sawo.html template are sawo.auth\_key, sawo.identifier and sawo.to Therefore, to send this data you have to create a JSON.
@@ -80,7 +79,7 @@ There are two methods to do this:
 
 **METHOD 1: SENDING STATIC DATA**
 
-```text
+```python
 context = {
         "sawo":{
                 "auth_key": "<api_key>",
@@ -98,7 +97,6 @@ context = {
                 "to": login               
         }
 }
-
 ```
 
 **METHOD 2: USING ADMIN AND DATABASE TO SAVE CONFIG FOR SAWO**  
@@ -106,12 +104,11 @@ context = {
 
 Step 1: To begin, the **sawo api\_key** and an **identifier** have to be created from the admin dashboard. The following code can be used in the models of your app.
 
-```text
+```python
 class Config(models.Models):
     api_key = models.CharField(max_length=200)
     identifier = models.CharField(max_length=200)
     choices = [("email","Email"),("phone_number_sms","Phone")]
-
 ```
 
 Step 2: Next, the **view.py** of the app has to be set up. Use the code given below for the same.
@@ -120,7 +117,7 @@ Step 2: Next, the **view.py** of the app has to be set up. Use the code given be
 Route should be the **receiving end** where you can handle **post** request
 {% endhint %}
 
-```text
+```python
 from models import Config
 from sawo import getContext
 
@@ -139,7 +136,6 @@ def index(request):
         "sawo" = getContext(config,"login") 
                
     }
-
 ```
 
 **Verifying Token**
@@ -147,7 +143,7 @@ def index(request):
 Once you are done with the login on the web page, **it sends the data to the backend as a payload.** To get the user verified, you can use the **verifyToken** function, which **returns** a **boolean**.  
 **Note:** BACKEND CODE IS SAME FOR DJANGO AND FLASK
 
-```text
+```python
 from sawo import verifyToken
 
 #use the method provided by flask and django to receive the 
@@ -161,7 +157,6 @@ if(verifyToken(payload)):
     #do something
 else:
     #do something else
-
 ```
 
 **Congratulations !! The SAWO API is now ready to be used in your Django application** 🤘**.**  
