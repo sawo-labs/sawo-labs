@@ -9,9 +9,9 @@ description: >-
 
 ### Let's Get your Laravel App running with SAWO 🙌 
 
-### **Requirements**
+### **Requirement**
 
-### \*\*\*\*[![Current version](https://img.shields.io/packagist/v/sawolabs/sawo-laravel.svg?logo=composer)](https://packagist.org/packages/sawolabs/sawo-laravel) [![Supported PHP version](https://img.shields.io/static/v1?logo=php&label=PHP&message=%5E7.2|~8.0.0&color=777bb4)](https://packagist.org/packages/sawolabs/sawo-laravel)
+ ​[​![Current version](https://img.shields.io/packagist/v/sawolabs/sawo-laravel.svg?logo=composer)​](https://packagist.org/packages/sawolabs/sawo-laravel) [​![Supported PHP version](https://img.shields.io/static/v1?logo=php&label=PHP&message=%5E7.2|~8.0.0&color=777bb4)](https://packagist.org/packages/sawolabs/sawo-laravel)
 
 ### Steps**:**
 
@@ -44,7 +44,7 @@ The best practice to store your API key is to store values in .env so that they 
 
 To get started with Sawo, use the **Composer package manager** to add the package to your project's dependencies:
 
-```text
+```php
 $ composer require sawolabs/sawo-laravel
 ```
 
@@ -52,7 +52,7 @@ $ composer require sawolabs/sawo-laravel
 
 3.1. Before using Sawo, you will need to **add credentials** for your application. These credentials should be placed in your application's `config/sawo.php` **configuration file.**
 
-```text
+```php
 <?php
 
 return [
@@ -88,13 +88,13 @@ SAWO_REDIRECT=https://yourdomain.com/sawo/callback
 
 Include the following code in your **login blade template** to show Sawo Auth dialog**.**
 
-```text
+```php
 @include('sawo::auth')
 ```
 
 **5. Verifying User Token**
 
-```text
+```php
 use SawoLabs\Laravel\Sawo;
 
 Route::get('/sawo/callback', function () {
