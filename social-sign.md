@@ -4,6 +4,13 @@ Proper planning is critical for the conduction of successful migration, at  SAWO
 
 {% page-ref page="quickguides/" %}
 
+## Why Migrate to SAWO?
+
+Passwords as a form of website and app authentication have been around for decades. While they do offer a great deal of security, they are pretty cumbersome to remember, enter and maintain, for both the firm and the user and leading to increased bounce rates.
+
+We welcome you to ditch passwords altogether, yet have the same level of security.   
+Say hello to SAWO!
+
 ## How can I implement SAWO in my Own App/Website?
 
 You have already implemented a social sign on solution which we can generally assume is Facebook, Gmail or Linkedin, now you already have a logic that validates authentication every time requested by the client and side by side a unique identifier stored by them in the database, most of the work has been completed by you and we don't want you to worry about anything else now, so,  we don't store any data of our end clients.   
