@@ -57,5 +57,5 @@
 ---
 
 * [Migrating from Passwords to SAWO's Passwordless](password.md)
-* [Social Sign On to SAWO](social-sign.md)
+* [Migrating from Social Sign On to SAWO's Passwordless](social-sign.md)
 
