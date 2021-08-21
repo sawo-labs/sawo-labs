@@ -31,9 +31,13 @@ This is the moment from where we start taking over your worries, initially, we r
 
 After your client is successfully authenticated, a payload is sent from our side to your server so you can further process it from your end. Check out [_What to do with your payload?_](additonal-content/what-to-do-with-your-payload.md)\_\_
 
-### New users signing up
+### New Users 
 
-If a new user gets authenticated, you can cross check with your Database and i
+If a new user gets authenticated, you can cross check with your Database and make a new entry with the payload provided
 
+### Existing Users
 
+As you already have existing Clients in your Database, you can map your Clients with the identifier sent in the payload by us
+
+{% page-ref page="additonal-content/what-to-do-with-your-payload.md" %}
 

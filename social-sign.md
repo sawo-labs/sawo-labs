@@ -35,5 +35,13 @@ After your client is successfully authenticated, a payload is sent from our side
 
 ### New users signing up
 
-If a new user gets authenticated, you can cross check with your Database and i
+If a new user gets authenticated, you can cross check with your Database and insert 
+
+### Existing Users 
+
+As you have already have existing Clients in your Database, you can map your Clients with the identifier sent in the payload by us
+
+{% page-ref page="additonal-content/what-to-do-with-your-payload.md" %}
+
+
 
