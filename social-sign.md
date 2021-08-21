@@ -6,7 +6,7 @@ Proper planning is critical for the conduction of successful migration, at  SAWO
 
 ## How can I implement SAWO in my Own App/Website?
 
-As you already have an authentication logic that validates passwords stored in your own database, most of the work has been completed by you and we don't want you to worry about anything else now, so,  we don't store any data of our end clients.   
+You have already implemented a social sign on solution which we can generally assume is Facebook, Gmail or Linkedin, now you already have a logic that validates authentication every time requested by the client and side by side a unique identifier stored by them in the database, most of the work has been completed by you and we don't want you to worry about anything else now, so,  we don't store any data of our end clients.   
 A simple payload is returned to you using which you can conveniently map your clients with the identifier you chose.
 
 {% hint style="info" %}
