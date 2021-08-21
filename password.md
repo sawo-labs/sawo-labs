@@ -33,11 +33,11 @@ After your client is successfully authenticated, a payload is sent from our side
 
 ### New Users 
 
-If a new user gets authenticated, you can cross check with your Database and make a new entry with the payload provided
+If a new user gets authenticated, you can cross check with your Database and make a new entry with the payload provided.
 
 ### Existing Users
 
-As you already have existing Clients in your Database, you can map your Clients with the identifier sent in the payload by us
+As you already have existing Clients in your Database, you can map your Clients with the identifier sent in the payload by us.
 
 {% page-ref page="additonal-content/what-to-do-with-your-payload.md" %}
 

@@ -8,7 +8,7 @@ Proper planning is critical for the conduction of successful migration, at  SAWO
 
 The one major flaw with social login, if we're pragmatic about how users really behave, is password reuse. 59% of people have reported using the same password across multiple sites. When a user registers to a website via social login, his **profile data** and **personal preferences** are **shared** between a social network and a third-party website
 
-Shared data might include user behavior **tracking** and using this data for **personalized ads** and customized content \(as it was in [Cambridge Analytica issue](https://www.vox.com/policy-and-politics/2019/4/16/18410932/facebook-user-data-privacy-cambridge-analytica)\). Thus, social logins as well raise **serious questions** of the security of data and safe password storage.  
+Shared data might include user behavior **tracking** and using this data for **personalized ads** and customized content \(as it was in [Cambridge Analytica issue](https://www.vox.com/policy-and-politics/2019/4/16/18410932/facebook-user-data-privacy-cambridge-analytica)\). Thus, social logins as well raise **serious questions** about the security of data and safe password storage.  
   
 So, we welcome you to ditch passwords altogether, along with a great level of security and user convenience. Say hello to SAWO!
 
@@ -35,11 +35,11 @@ After your client is successfully authenticated, a payload is sent from our side
 
 ### New users signing up
 
-If a new user gets authenticated, you can cross check with your Database and insert 
+If a new user gets authenticated, you can cross check with your Database and insert their details into the database.
 
 ### Existing Users 
 
-As you have already have existing Clients in your Database, you can map your Clients with the identifier sent in the payload by us
+As you have already had existing Clients in your Database, you can map your Clients with the identifier sent in the payload by us.
 
 {% page-ref page="additonal-content/what-to-do-with-your-payload.md" %}
 
