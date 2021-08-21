@@ -6,10 +6,9 @@ Proper planning is critical for the conduction of successful migration, at  SAWO
 
 ## **Why Migrate to SAWO?**
 
-Passwords as a form of website and app authentication have been around for decades. While they do offer a great deal of security, they are pretty cumbersome to remember, enter and maintain, for both the firm and the user and leading to increased bounce rates.  
+Passwords as a form of website and app authentication have been around for decades. They offer just a decent level of security and adding onto them they are pretty cumbersome to remember, enter and maintain, for both the firm and the user and initiate increased bounce rates.  
   
-We welcome you to ditch passwords altogether, yet have the same level of security.  
-Say hello to SAWO!
+So, we welcome you to ditch passwords altogether, along with a great level of security and user convenience. Say hello to SAWO!
 
 ## How can I implement SAWO in my Own App/Website?
 
