@@ -40,7 +40,7 @@ On successful authentication, the payload would come as a response and it was be
 
 ### Storing Data to Database
 
-The payload received by you will be containing essential knowledge about your customer, you can easily store that in a database for further usage of data.
+The payload returned by us is a JSON, as SAWO believes in user data autonomy and we believe that we as the B2B provider should never be storing the data, we just send a JSON file which you can by running a simple API store into your database.
 
 ### Managing Session Storage
 
